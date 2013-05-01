@@ -1,0 +1,10 @@
+# MVC
+
+Posts
+	title
+	author
+	content
+
+## Extended
+
+Comments	

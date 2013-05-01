@@ -1,0 +1,14 @@
+# Process
+
+## Planning
+Elevator Pitch
+Wireframe
+Models
+
+## Start
+Create Project
+Create Models
+Setup relationships
+Create Controllers
+Build out views
+Add (a little) styling

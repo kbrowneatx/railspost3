@@ -1,0 +1,23 @@
+# Wireframe for railsblog3
+
+## Admin views first
+
+Home
+About
+Legal
+Posts - see all posts
+	Post
+		- view
+		- edit
+		- new/create
+		- delete
+
+## Actual usage / Reader's view
+
+Home
+About
+Legal
+Posts - see all posts
+	Post
+		- view
+		- comment

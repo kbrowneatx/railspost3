@@ -1,0 +1,1 @@
+A simple blog application to illustrate how we *manually* create a web app in Rails
