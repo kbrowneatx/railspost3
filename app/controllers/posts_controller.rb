@@ -20,7 +20,7 @@ class PostsController < ApplicationController
 	if @post.save
 		redirect_to @post
 	end
-	render :edit
+	#render :edit
   end
  
   def update
@@ -28,7 +28,7 @@ class PostsController < ApplicationController
 	if @post.update_attributes(params[:post])
 		redirect_to @post
 	end
-	render :edit
+	#render :edit
   end
   
   def destroy

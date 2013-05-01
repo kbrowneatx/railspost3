@@ -1,4 +1,4 @@
-<h1>Create a new Posts</h1>
+<h1>Create a new Post</h1>
 
 <%= form_for @post do |p| %>
 	<p>
@@ -11,8 +11,11 @@
 	</p>
 	<p>
 		<%= p.label :content %><br/>
-		<%= p.text_field :content %>
+		<%= p.text_area :content %>
 	</p>
 		<p>
 		<%= p.submit "Create" %>
 <% end %>
+
+<p>===</p>
+<%= link_to "Cancel and return to All Posts", posts_path %>
