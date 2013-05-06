@@ -7,7 +7,7 @@
 	</p>
 	<p>
 		<%= p.label :author %><br/>
-		<%= p.text_field :author %>
+		<%= p.collection_select(:author_id, Author.all, :id, :name) %>
 	</p>
 	<p>
 		<%= p.label :content %><br/>

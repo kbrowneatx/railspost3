@@ -1,4 +1,7 @@
 Railsblog3::Application.routes.draw do
+  resources :authors
+
+
   resources :posts
 
   get "welcome/index"

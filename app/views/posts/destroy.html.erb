@@ -1,11 +1,11 @@
 <h1><%= @post.title %></h1>
-<p><i>by <%= @post.author.name %></i><p>
+<p><i>by <%= @post.author %></i><p>
 
 <p><%= @post.content %></p>
 
 <p>Last updated: <%= @post.updated_at %>
 
 <p>===</p>
-<p><%= link_to 'Edit', edit_post_path %> this post</p>
+<p><%= link_to 'Delete', destroy_post_path %> this post?</p>
 <p>===</p>
 <%= link_to "<- Back to All Posts", posts_path %>

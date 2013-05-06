@@ -1,11 +1,19 @@
 <h1>Posts</h1>
 
-<div class="posts">
-	<% @posts.each do |post| %>
-		<div class="post">
-			<span class="title"><%= link_to post.title, post %></span>
-		</div>
-	<% end %>
-</div>
+<table>
+  <tr>
+  </tr>
+  <% @posts.each do |post| %>
+    <tr>
+	  <td><%= post.title %></td>
+	  <td><%= post.author.name %></td>
+	  <td><%= post.content %></td>
+	  <td><%= link_to 'Show', post %></td>
+	  <td><%= link_to 'Edit', edit_post_path(post) %></td>
+	  <td><%= link_to 'Delete', post_path(post), :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+<br />
 
 <p><%= link_to 'Click Here', new_post_path %> to create a new post</p>
